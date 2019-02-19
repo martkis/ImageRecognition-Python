@@ -1,0 +1,14 @@
+{
+    "0" : "drogaJednokierunkowa",
+    "1" : "drogaZPierwszenstwem",
+    "2" : "nakazJazdyProsto",
+    "3" : "nakazJazdyWLewo",
+    "4" : "nakazJazdyWPrawo",
+    "5" : "ograniczeniePredkosci30",
+    "6" : "ograniczeniePredkosci50",
+    "7" : "przejscieDlaPieszych",
+    "8" : "terenZabudowany",
+    "9" : "zakazRuchuWObuKierunkach",
+    "10" : "zakazWjazdu",
+    "11" : "znakStop"
+}
