@@ -14,13 +14,6 @@ The main framework that is used is [ImageAI framework](https://github.com/Olafen
 </h3>To use <b>ImageAI</b> in your application developments, you must have installed the following 
  dependencies before you install <b>ImageAI</b> : 
 
-
-      
-<br><br>
-
-<div id="dependencies"></div>
-<h3><b><u>Dependencies</u></b></h3>To use <b>ImageAI</b> in your application developments, you must have installed the following 
- dependencies before you install <b>ImageAI</b> : 
  
  <br>
        <span><b>- Python 3.5.1 (and later versions) </b>      <a href="https://www.python.org/downloads/" style="text-decoration: none;" >Download</a></span> <br>
