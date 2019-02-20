@@ -11,4 +11,6 @@
 Python scripts simply download and run in the IDE or console (creating a Python virtual environment). They are helpful when processing large amounts of data in a relatively short time (.jpeg, .png, .jpg, .gif, .txt).
 
 When you run in the console, do it by make virtual environment: 
-`mkvirtualenv fake_data`
+```
+mkvirtualenv fake_data
+```
