@@ -14,3 +14,11 @@ When you run in the console, do it by make virtual environment:
 ```
 mkvirtualenv fake_data
 ```
+when installation ends go to your virtual environment:
+```
+workon fake_data
+```
+and run script by paste: 
+```
+py fake_data.py
+```
