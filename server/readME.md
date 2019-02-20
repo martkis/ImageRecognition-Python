@@ -11,7 +11,7 @@ The main framework that is used is [ImageAI framework](https://github.com/Olafen
 
 <div id="dependencies"></div>
 <h3><b><u>Dependencies from the imageAi repo:</u></b>
-</h3>To use <b>ImageAI</b> in your application developments, you must have installed the following 
+</h3>To use <b>ImageAI</b>, you must have installed the following 
  dependencies before you install <b>ImageAI</b> : 
 
  
