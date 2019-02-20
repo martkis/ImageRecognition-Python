@@ -26,3 +26,7 @@ The main framework that is used is [ImageAI framework](https://github.com/Olafen
        <span><b>- Matplotlib  </b>       <a href="https://matplotlib.org/users/installing.html" style="text-decoration: none;" >Install</a></span> or install via pip <pre> pip3 install matplotlib </pre> 
        <span><b>- h5py  </b>       <a href="http://docs.h5py.org/en/latest/build.html" style="text-decoration: none;" >Install</a></span> or install via pip <pre> pip3 install h5py </pre> 
        <span><b>- Keras 2.x  </b>     <a href="https://keras.io/#installation" style="text-decoration: none;" >Install</a></span> or install via pip <pre> pip3 install keras </pre> 
+
+## General Info
+
+CustomPredictionCustomModel.py file contains basic code to recognize object in the photo
