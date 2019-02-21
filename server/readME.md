@@ -10,7 +10,7 @@ This folder contains all the files needed for the server to function properly. J
 The main framework that is used is [ImageAI framework](https://github.com/OlafenwaMoses/ImageAI)
 
 <div id="dependencies"></div>
-<h3><b><u>Dependencies from the imageAi repo:</u></b>
+<h3><b><u>Dependencies from the imageAI repo:</u></b>
 </h3>To use <b>ImageAI</b>, you must have installed the following 
  dependencies before you install <b>ImageAI</b> : 
 
