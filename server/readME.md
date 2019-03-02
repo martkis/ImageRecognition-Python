@@ -29,4 +29,4 @@ The main framework that is used is [ImageAI framework](https://github.com/Olafen
 
 ## General Info
 
-CustomPredictionCustomModel.py file contains basic code to recognize object in the photo
+CustomPredictionCustomModel.py file contains basic code to recognize road signs in the photo from camera.
