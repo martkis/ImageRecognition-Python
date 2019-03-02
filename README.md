@@ -54,3 +54,20 @@ for image_path in os.listdir(path):
     cv2.imwrite(input_path, gray)
 
 ```
+Based on such transformed data On the basis of such transformed data, you can start to train the network in order to obtain a model by which the application will recognize the class of the road sign in the image. Training the model in the ImageAI library is very simple, because just a few lines of code, the network implemented in this library began to learn and generate models used for character recognition. The code below is used to configure the learning process.
+
+```
+from imageai.Prediction.Custom import ModelTraining
+    
+    model_trainer = ModelTraining()
+    model_trainer.setModelTypeAsInceptionV3()
+    
+    model_trainer.setDataDirectory(
+        r"C:\\Users\\makis\Desktop\znaki_drogowe")
+
+    model_trainer.trainModel(num_objects=12,num_experiments=60,
+           enhance_data=False, batch_size=4, show_network_summary=False)
+
+```
+At the beginning, the necessary module from the ImageAI library is imported. Next, an object is created to which the ModelTraining instance is assigned and the type of network is set. An absolute path is also given to the folder in which the training and test data are located, as well as a folder with the models generated during learning.
+At the end, we define the learning parameters in the function model_trainer.trainModel, where we set the number of classes to be recognized by the model, the number of epochs and the size of the data.
