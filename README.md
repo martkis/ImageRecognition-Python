@@ -74,3 +74,36 @@ At the end, we define the learning parameters in the function model_trainer.trai
 
 > Before you run the above code, you need to know that the learning network needs a lot of computing power. Currently available mid-priced home computers are able to provide such computing power, but only if we transfer the learning process from the default CPU to the GPU. The process of transferring calculations requires a properly compiled TensorFlow library, which is able to use the powerful resources of graphics cards, relieving weaker processors that have a different task in the learning process - they need to properly manage the resources of the GPU. This approach to the learning process provides acceleration of up to 500% relative to the learning process without using a graphics card. This acceleration allows us to achieve satisfactory results earlier, and also saves electricity and equipment that can run shorter.
 
+## Tests
+
+The tests were carried out on a PC with a GTX 970 graphics card, with limited use of VRAM up to 2457MB.
+
+<table style="font-family: arial, sans-serif; border-collapse: collapse; width: 100%;">
+  <tr>
+  	<th> </th>
+    <th>RestNet</th>
+    <th>InceptionV3</th>
+    <th>DenseNet</th>
+  </tr>
+  <tr>
+    <td>Ilość warstw</td>
+    <td>50</td>
+    <td>189</td>
+    <td>121</td>
+  </tr>
+  <tr>
+    <td>Średni czas obliczeń jednej epoki</td>
+    <td>541 s</td>
+    <td>688 s</td>
+    <td>600 s</td>
+  </tr>
+  <tr>
+    <td>Liczba parametrów</td>
+    <td>25 mln</td>
+    <td>23 mln</td>
+    <td>15,3 mln</td>
+  </tr>
+  <tr>
+  
+  </tr>
+</table>
