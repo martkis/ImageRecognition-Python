@@ -86,19 +86,19 @@ The tests were carried out on a PC with a GTX 970 graphics card, with limited us
     <th>DenseNet</th>
   </tr>
   <tr>
-    <td>Ilość warstw</td>
+    <td>The number of layers</td>
     <td>50</td>
     <td>189</td>
     <td>121</td>
   </tr>
   <tr>
-    <td>Średni czas obliczeń jednej epoki</td>
+    <td>The average calculation time of one epoch</td>
     <td>541 s</td>
     <td>688 s</td>
     <td>600 s</td>
   </tr>
   <tr>
-    <td>Liczba parametrów</td>
+    <td>The number of parameters</td>
     <td>25 mln</td>
     <td>23 mln</td>
     <td>15,3 mln</td>
