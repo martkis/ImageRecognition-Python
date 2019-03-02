@@ -1,6 +1,6 @@
 # The rozpoZNAK application - first part
 
-> This is part of the application used to recognize road signs using python and java android. 
+> This is the first part of the application used to recognize road signs using python and java android. 
 
 ## Getting Started
 
