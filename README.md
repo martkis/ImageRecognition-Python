@@ -74,11 +74,13 @@ At the end, we define the learning parameters in the function model_trainer.trai
 
 > Before you run the above code, you need to know that the learning network needs a lot of computing power. Currently available mid-priced home computers are able to provide such computing power, but only if we transfer the learning process from the default CPU to the GPU. The process of transferring calculations requires a properly compiled TensorFlow library, which is able to use the powerful resources of graphics cards, relieving weaker processors that have a different task in the learning process - they need to properly manage the resources of the GPU. This approach to the learning process provides acceleration of up to 500% relative to the learning process without using a graphics card. This acceleration allows us to achieve satisfactory results earlier, and also saves electricity and equipment that can run shorter.
 
+
 ## Tests
+
 
 The tests were carried out on a PC with a GTX 970 graphics card, with limited use of VRAM up to 2457MB.
 
-<table style="font-family: arial, sans-serif; border-collapse: collapse; width: 100%;">
+<table style="font-family: arial, sans-serif; border-collapse: collapse; width: 100%; margin: 0 auto;">
   <tr>
   	<th> </th>
     <th>RestNet</th>
