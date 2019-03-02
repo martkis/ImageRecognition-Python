@@ -30,3 +30,5 @@ The main framework that is used is [ImageAI framework](https://github.com/Olafen
 ## General Info
 
 CustomPredictionCustomModel.py file contains basic code to recognize road signs in the photo from camera.
+
+app.py file is simple flask application to listening on http port until it receives the numpy array. When he receives a stream matched with requirements, he sends it to the prediction_custom method, which returns a tuple containing the road sign class and probability,
