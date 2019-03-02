@@ -80,7 +80,7 @@ At the end, we define the learning parameters in the function model_trainer.trai
 
 The tests were carried out on a PC with a GTX 970 graphics card, with limited use of VRAM up to 2457MB.
 
-<table style="font-family: arial, sans-serif; border-collapse: collapse; margin: 0 auto;">
+<table style="font-family: arial, sans-serif; border-collapse: collapse; margin: 0 auto; width:100%">
   <tr>
   	<th> </th>
     <th>RestNet</th>
