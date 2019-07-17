@@ -4,7 +4,7 @@
 
 ## Getting Started
 
- The repository contains two _fake_data.py_ files and the _server_ folder. _fake_data.py_ is designed to convert input images to the gray scale, and rotate them by angles from -11 to 9 degrees. File _fake_data_2.py_ resizes all input data to one specified in the size file (e.g 200 x 200 pixels)
+ The repository contains two _fake_data.py_ files and the _server_ folder. The _fake_data.py_ file is designed to convert input images to the gray scale, and rotate them by angles from -11 to 9 degrees. File _fake_data_2.py_ resizes all input data to one specified in the size file (e.g 200 x 200 pixels)
 
 ### Installing and Using
 
@@ -54,7 +54,7 @@ for image_path in os.listdir(path):
     cv2.imwrite(input_path, gray)
 
 ```
-Based on such transformed data On the basis of such transformed data, you can start to train the network in order to obtain a model by which the application will recognize the class of the road sign in the image. Training the model in the ImageAI library is very simple, because just a few lines of code, the network implemented in this library began to learn and generate models used for character recognition. The code below is used to configure the learning process.
+Based on such transformed data, you can start to train the network in order to obtain a model by which the application will recognize the class of the road sign in the image. Training the model in the ImageAI library is very simple, because just a few lines of code, the network implemented in this library began to learn and generate models used for character recognition. The code below is used to configure the learning process.
 
 ```
 from imageai.Prediction.Custom import ModelTraining
